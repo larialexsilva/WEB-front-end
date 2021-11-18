@@ -8,9 +8,30 @@
     <link rel="icon" href="" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/i4_styles.css">
 </head>
 <body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+    <!----    <a class="nav-bar-brand" href="index.html">
+        <img src="img/senai_small.jpg"></a> -->
+        <button class="navbar-toggler" type="button" data-toggler="collapse" 
+        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
+        aria-label="Alterna navegação">
+            <span class="fa fa-bars"></span>Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nave">
+            <ul class="navbar-nav ml-auto me-md-3">                
+                   <li class="nav-item"><a class="nav-link" href="jogos.htm">Jogos </a></li>             
+                   <li class="nav-item"><a class="nav-link" href="hardware.html">Hardware </a></li>                          
+                   <li class="nav-item"><a class="nav-link" href="celulares.html">Celulares </a></li>            
+                   <li class="nav-item"><a class="nav-link" href="pc-Gamer.html">PC gamer </a></li>           
+                   <li class="nav-item"><a class="nav-link" href="contatos.html">Contatos </a></li>           >
+                   <li class="nav-item"><a class="nav-link" href="login.html">Login </a></li>            
+            </ul>
+        </div>
+    </nav>
+</div>
  <header>
     <nav class="menu_top">
         <img class="img-logo" src="img/senai_final.jpg" alt="Logo Senai">
@@ -23,8 +44,38 @@
              <a class="linkMenu login" href="login.html">login</a>
         </ul>
     </nav>
- </header> 
-        <div class="section-banner-home">
+ </header>
+     <div id="carouselExempleinterval" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+             <div class="carousel-item active" data-bs-interval="1000">
+                 <img class="d-block w-100" src="img/imagem_1.jpg" alt="Primeiro Slide">
+             </div>
+             <div class="carousel-item" data-bs-interval="1000">
+                 <img class="d-block w-100" src="img/imagem_2.jpg" alt="Segundo Slide">
+             </div>
+             <div class="carousel-item" data-bs-interval="1000">
+                 <img class="d-blck w-100" src="img/imagem_3.jpg" alt="Terceiro Slide">
+             </div>             
+         </div>
+         <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev">
+         </button>
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Anterior</span>
+        </button>
+         <button
+          class="carousel-control-next" 
+          data-bs-target="#carouselExampleInterval" 
+          type="button"
+          data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Próximo</span>
+        </button>    
+     </div> 
+    <div class="section-banner-home">
             <div class="container-fluid">
                 <div class="row m-0">
                     <div class="col-12 col-md-6">
